@@ -1,0 +1,43 @@
+.main-wrapper{
+  height: 100vh;
+  
+}
+main{
+  background-color:steelblue;
+  height: 100%;
+}
+.griglia{
+  width: 500px;
+  height: 500px;
+  background-color: skyblue;
+}
+.cella{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+.box100{
+  height: calc(100% / 10);
+  width: calc(100% / 10);
+}
+.box81{
+  height: calc(100% / 9);
+  width: calc(100% / 9);
+}
+.box49{
+  height: calc(100% / 7);
+  width: calc(100% / 7);
+}
+.active{
+  background-color: green;
+  color: white;
+}
+.bomb{
+  background-color: red;
+  color: white;
+}
